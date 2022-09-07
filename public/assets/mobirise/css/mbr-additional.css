@@ -144,42 +144,43 @@ body {
 .btn-primary,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #2b6477 !important;
-  border-color: #2b6477 !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff !important;
-  background-color: #17353f !important;
-  border-color: #17353f !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #17353f !important;
-  border-color: #17353f !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-secondary,
 .btn-secondary:active,
 .btn-secondary.active {
-  background-color: #333333 !important;
-  border-color: #333333 !important;
-  color: #ffffff !important;
+  background-color: #8be8cb !important;
+  border-color: #8be8cb !important;
+  color: #333333 !important;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary.focus {
+  
+  background-color: #40a494 !important;
+  border-color: #40a494 !important;
   color: #ffffff !important;
-  background-color: #0d0d0d !important;
-  border-color: #0d0d0d !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #0d0d0d !important;
-  border-color: #0d0d0d !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info,
 .btn-info:active,
@@ -1179,7 +1180,7 @@ body {
   }
 }
 .cid-r7o72Bhmed {
-  background-image: url("../../../assets/images/faruk-melik-cevik-659743-unsplash-1-2000x1333.jpg");
+  background-image: url("../../img/group2.jpg");
 }
 .cid-r7o72Bhmed .mbr-arrow {
   background: #000000 !important;
@@ -1408,7 +1409,7 @@ body {
 .cid-r7oenkEURR {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/rich-martello-443272-unsplash-2000x1287.jpg");
+  background-image: url("../../img/group1.jpg");
 }
 .cid-r7oenkEURR h2,
 .cid-r7oenkEURR h3,
@@ -1503,7 +1504,7 @@ body {
   position: relative;
 }
 .cid-r7oeqXiEpW .table .table-wrapper .table-head-wrapper {
-  background: #a3c6d2;
+  background: #333333;
   margin: -2rem;
   margin-bottom: 0 !important;
   padding: 2rem;
@@ -1569,7 +1570,7 @@ body {
 .cid-r7owzdWvdf {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #fcfcfc;
+  background-color: #f8f8f8;
 }
 .cid-r7owzdWvdf .underline .line {
   width: 2rem;
@@ -1653,5 +1654,8 @@ body {
 .cid-r7owx7axKc {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2b6477;
+  background-color: #333333;
+}
+.white-txt {
+  color: white;
 }
