@@ -1409,6 +1409,11 @@ body {
 .cid-r7oenkEURR {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+.review-background {
+  background-image: url("../../img/group3.jpg");
+}
+.team-background {
   background-image: url("../../img/group1.jpg");
 }
 .cid-r7oenkEURR h2,

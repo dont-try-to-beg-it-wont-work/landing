@@ -456,6 +456,120 @@ nav .mbr-section-btn {
   -webkit-align-items: center;
   -webkit-justify-content: center; }
 
+#team-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 3 columns */
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.team-cell, .team-cell-photo-img
+{
+  width: 200px;
+  max-width: 200px;
+}
+
+.team-cell-photo
+{
+    display: inline-grid;
+}
+
+.team-cell-desc
+{
+    display: none;
+    pointer-events: none;
+}
+
+.team-cell-11, .team-cell-12, .team-cell-13
+{
+    grid-row: 1;
+}
+
+.team-cell-21, .team-cell-22, .team-cell-23
+{
+    grid-row: 2;
+}
+
+.team-cell-11, .team-cell-21
+{
+    grid-column: 1;
+}
+
+.team-cell-12, .team-cell-22
+{
+    grid-column: 2;
+}
+
+.team-cell-13, .team-cell-23
+{
+    grid-column: 3;
+}
+
+.team-cell-photo:hover + .team-cell-desc
+{
+    display: inline-grid;
+    background-color: #8be8cb;
+    opacity: 90%;
+}
+
+.team-cell-desc-text
+{
+  text-align: center;
+  display: table-cell;
+  margin: auto;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #team-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+  .team-cell-11, .team-cell-12 {
+    grid-row: 1;
+  }
+  .team-cell-13, .team-cell-21 {
+    grid-row: 2;
+  }
+  .team-cell-22, .team-cell-23 {
+    grid-row: 3;
+  }
+  .team-cell-11, .team-cell-13, .team-cell-22 {
+    grid-column: 1;
+  }
+  .team-cell-12, .team-cell-21, .team-cell-23 {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  #team-grid {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .team-cell-12 {
+    grid-row: 2;
+  }
+  .team-cell-13 {
+    grid-row: 3;
+  }
+  .team-cell-21 {
+    grid-row: 4;
+  }
+  .team-cell-22 {
+    grid-row: 5;
+  }
+  .team-cell-23 {
+    grid-row: 6;
+  }
+  .team-cell-11, .team-cell-12, .team-cell-13, .team-cell-21, .team-cell-22, .team-cell-23, .team-cell-31, .team-cell-32, .team-cell-33 {
+      grid-column: 1;
+  }
+}
+
 @media (max-width: 576px) {
   .col-xs-3 {
     -webkit-box-flex: 0;
