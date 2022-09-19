@@ -521,6 +521,7 @@ nav .mbr-section-btn {
   text-align: center;
   display: table-cell;
   margin: auto;
+  padding: 10px;
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
